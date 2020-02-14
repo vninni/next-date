@@ -15,12 +15,17 @@ npm install --save next-date
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'next-date'
+import NextDate from 'next-date'
 
-class Example extends Component {
-  render () {
+export default class App extends Component {
+  handleChange = date => {
+    console.log(date)
+  }
+  render() {
     return (
-      <MyComponent />
+      <div>
+        <NextDate onChange={this.handleChange} />
+      </div>
     )
   }
 }

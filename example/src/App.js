@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'next-date'
+import NextDate from 'next-date'
 
 export default class App extends Component {
-  render () {
+  handleChange = date => {
+    console.log(date)
+  }
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <NextDate onChange={this.handleChange} />
       </div>
     )
   }
