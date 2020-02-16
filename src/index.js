@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 
 export default class NextDate extends Component {
   static propTypes = {
-    onChange: PropTypes.func
+    onChange: PropTypes.func,
+    value: PropTypes.instanceOf(Date)
   }
-  state = { currentDate: new Date() }
+  state = { currentDate: this.props.value || new Date() }
 
   handleLeftClick = e => {
     let updateDate = new Date(
