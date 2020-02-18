@@ -16,7 +16,7 @@ export default class App extends Component {
         <NextDate
           value={this.state.date}
           onChange={this.handleChange}
-          days={5}
+          days={3}
         />
       </div>
     )

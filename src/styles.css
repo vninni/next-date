@@ -1,0 +1,21 @@
+.nextdate_dropdown {
+  list-style-type: none;
+  position: absolute;
+  margin: 0;
+  left: 9px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid;
+  text-align: center;
+}
+
+.nextdate_list:not(:last-child) {
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.nextdate_list.selected,
+.nextdate_list:hover {
+  background-color: #a9a9a9;
+}
