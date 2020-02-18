@@ -13,7 +13,11 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <NextDate value={this.state.date} onChange={this.handleChange} />
+        <NextDate
+          value={this.state.date}
+          onChange={this.handleChange}
+          days={5}
+        />
       </div>
     )
   }
