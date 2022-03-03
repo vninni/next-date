@@ -6,7 +6,7 @@
 
 ## Demo Page
 
-You can find a demo [Here](https://yuledev.github.io/next-date/)
+You can find a demo [Here](https://vninni.github.io/next-date/)
 
 ## Install
 
